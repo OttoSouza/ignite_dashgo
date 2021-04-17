@@ -25,11 +25,11 @@ export const theme = extendTheme({
   },
 
   styles: {
-    global: (props) => ({
-      "html, body": {
-        color: props.colorMode === "dark" ? "white" : "gray.50",
-        bg: props.colorMode === "dark" ? "gray.100" : "gray.900",
+    global: {
+      body: {
+        bg: "gray.900",
+        color: "gray.50",
       },
-    }),
+    },
   },
 });

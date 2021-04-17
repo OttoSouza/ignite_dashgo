@@ -46,7 +46,7 @@ export default function Home() {
         justify="center"
         direction="column"
       >
-        <IconButton
+        {/* <IconButton
           aria-label="Theme"
           ml={80}
           mb="4"
@@ -56,7 +56,7 @@ export default function Home() {
           bgColor="gray.600"
           isRound={true}
           onClick={toggleColorMode}
-        />
+        /> */}
 
         <Flex
           as="form"
